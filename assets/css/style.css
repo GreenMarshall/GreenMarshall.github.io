@@ -160,6 +160,10 @@ header {
     padding: 0px 0px 0px;
 }
 
+.visible__scroll {
+    display: none;
+}
+
 .menu {
     padding: 34px 0px 23px;
 }
@@ -184,16 +188,33 @@ header {
     padding-left: 10px;
 }
 
-.header-fixed {
+.menu .active{
+    color: green;
+}
+
+/* Scroll header */
+
+header.sticky {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 10;
+    height: 48px;
+    transition: all 0.4s ease;
+    z-index: 1000;
 }
 
-.menu .active{
+header.sticky .logo__icon {
+    display: none;
+}
+
+header.sticky .menu {
+    padding: 5px 0;
+}
+
+header.sticky .logo__text {
     color: green;
+    padding: 15px 0;
 }
 
 /* Navigation end */
