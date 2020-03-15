@@ -23,7 +23,7 @@ $(function(){
 
         // Smooth scroll (navigation. all body)
 
-        $('.header-inner nav a').click(function(){
+        $('.header-inner nav a , .slider a').click(function(){
             var element=$(this).attr('href');
             var dist=$(element).offset().top;
 
