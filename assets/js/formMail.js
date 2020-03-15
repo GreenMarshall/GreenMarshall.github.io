@@ -1,6 +1,6 @@
 $("#sendMail").on("click", function(){
     var name=$("#form_name").val().trim();
-    var email=$("#form_email").val().trim();
+    var email=$("#eform_mail").val().trim();
     var message=$("#form_message").val().trim();
 
     if(name=="") {
@@ -14,7 +14,7 @@ $("#sendMail").on("click", function(){
     else if(message=="") {
         $("#errorMessage").text("Enter your massage of at least 5 characters.");
         return false;
-    }
+    };
 
     $("#errorMessage").text("");
 
@@ -31,7 +31,7 @@ $("#sendMail").on("click", function(){
         success: function(data){
             alert(data);
             $("#sendMail").prop("disabled", false);
-        };
+        }
     });
 
 });
