@@ -7,11 +7,10 @@
 body {
     font-family: 'icomoon';
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 18px;
     color: #5e5e5e;
     font-family: 'Roboto', sans-serif;
-    font-family: 'Lobster', cursive;
 }
 
 /* All start */
@@ -33,7 +32,7 @@ ul, li {
 }
 
 .content-box {
-	padding: 120px 0 100px;
+    padding: 120px 0 100px;
 }
 
 .content-box-gray {
@@ -43,7 +42,6 @@ ul, li {
 .content-box-top {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 60px;
 }
 
 .title-box {
@@ -72,6 +70,7 @@ ul, li {
 }
 
 .text__box-inner {
+    font-family: 'Lobster', cursive;
     letter-spacing: 0.1px;
 }
 
@@ -244,7 +243,7 @@ header.sticky .logo__text {
     font-weight: 500;
     letter-spacing: 1.5px;
     margin-bottom: 22px;
-    font-family: 'Trade Winds', serif;
+    font-family: 'Trade Winds', cursive;
 }
 
 .slider__text {
@@ -322,7 +321,7 @@ header.sticky .logo__text {
 	border-radius: 50%;
 	height: 50px;
 	width: 50px;
-	margin-left: -15px;
+	margin-left: -27px;
 	display: block;
 	z-index: 10;
     text-align: center;
@@ -435,6 +434,7 @@ canvas {
     margin-top: -24px;
     margin-left: 2px;
     transform: translate(-50%);
+    font-family: 'Lobster', cursive;
     font-size: 40px;
     color: #212121;
     font-weight: 100;
@@ -450,9 +450,30 @@ canvas {
 
 #circle-bar span i {
     color: #202020;
+    font-family: 'Trade Winds', cursive;
     font-size: 25px;
     margin-right: 7px;
 }
 
 
 /* Skills end */
+
+/* Footer start*/
+
+.footer-box {
+    margin-left: 292.5px;
+}
+
+.footer__text {
+	text-align: center;
+	margin: 0 0 60px;
+}
+
+.footer-line {
+	background: green;
+	width: 100px;
+	height: 2px;
+	margin: 30px auto;
+}
+
+/* Footer end */

@@ -28,8 +28,8 @@
             <div class="speed__contacts">             
                 <a class="phone" href="tel:380664655902"> +38 066 465 59 02</a>
                 <a class="gmail" href="#"> DevGreenMarshall@gmail.com</a>
-                <a class="instagram" href="#"> Instagram</a>
-                <a class="telegram" href="#"> Telegram</a>
+                <a class="instagram" href="https://www.instagram.com/devgreenmarshall/" target="blank"> Instagram</a>
+                <a class="telegram" href="http://t.me/DevGreenMarshall_com" target="blank"> Telegram</a>
                 <a class="en" href="index.html">En</a> 
                 <a class="ru" href="#">Ru</a>                
             </div>
@@ -43,7 +43,7 @@
     <header class="content-box-gray">
         <div class="container">
             <div class="header-inner">
-                <div class="header__logo">
+                <div class="header__logo" role="banner">
                     <a  href="index.html">
                         <img class="logo__icon visible__stat" src="/assets/media/img/logo.png" alt="">
                     </a>
@@ -200,12 +200,12 @@
                     </div>
                 </div>
                 <div class="custom-btn ">
-                    <a href="#">text</a>
+                    <a href="#">All skills</a>
                 </div>  
             </div>
             <div class="skills-inner" id="circle-bar">
                 <div class="row">
-                    <div class="col-sm-3 col-md-3">
+                    <div class="col-sm-4 col-md-4">
                         <div class="round" data-value="0.64" data-size="200" data-sickness="12">
                             <strong>
                                 64%
@@ -217,7 +217,7 @@
                             </span>
                         </div>
                     </div>
-                    <div class="col-sm-3 col-md-3">
+                    <div class="col-sm-4 col-md-4">
                         <div class="round" data-value="0.47" data-size="200" data-sickness="12">
                             <strong>
                                 47%
@@ -229,7 +229,7 @@
                             </span>
                         </div>
                     </div>
-                    <div class="col-sm-3 col-md-3">
+                    <div class="col-sm-4 col-md-4">
                         <div class="round" data-value="0.34" data-size="200" data-sickness="12">
                             <strong>
                                 34%
@@ -250,8 +250,35 @@
 
     <!-- Consultation start -->
 
-    <footer class="content-box">
+    <footer id="Consultation" class="content-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3 footer-box">
+                    <div class="footer__text">
+                        <h2 class="footer-title">Drop me a line</h2>
+						<div class="footer-line"></div>
+						<div class="footer-subtitle">
+							No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s eyes, to reveal the marvels around.
+						</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3">
+                    <form id="form" role="form" action="#">
 
+ <!-- Hidden Required Fields -->
+
+		<input type="hidden" name="project_name" value="Site Name">
+		<input type="hidden" name="admin_email" value="admin@mail.com">
+        <input type="hidden" name="form_subject" value="Form Subject">
+        
+<!-- END Hidden Required Fields -->
+        
+                    </form>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <!-- Consultation end -->
@@ -264,7 +291,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
     <script src="/assets/js/slick.min.js"></script>
     <!-- My script -->
-    <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/main.js"></script>
     <!-- Script end -->
 </body>
 </html>
