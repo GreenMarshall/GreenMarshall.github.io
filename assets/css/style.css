@@ -12,7 +12,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-
 /* All start */
 
 h1, h2, h3, h4, h5, h6 {
@@ -170,6 +169,7 @@ ul, li {
 header {
     font-family: 'Trade Winds', cursive;
     font-size: 16px;
+    background: #eeeeee;
 }
 
 .header-inner {
@@ -218,6 +218,7 @@ header {
 /* Scroll header */
 
 header.sticky {
+    background-color: #b1b1b1;
     position: fixed;
     top: 0;
     left: 0;
@@ -234,6 +235,7 @@ header.sticky .logo__icon {
 header.sticky .menu {
     padding: 5px 0;
 }
+
 
 header.sticky .logo__text {
     color: green;
@@ -276,7 +278,7 @@ header.sticky .logo__text {
 .slider__text {
     line-height: 24px;
     font-size: 18px;
-    color: rgb(177, 177, 177); 
+    color: #e5e5e5; 
     margin-bottom: 50px;
 }
 
@@ -284,7 +286,7 @@ header.sticky .logo__text {
     display: inline-block;
     font-size: 14px;
     line-height: 24px;
-    color: rgb(177, 177, 177); 
+    color: #e5e5e5; 
     font-weight: 500;
     padding: 8px 24px;
     border: 1px solid green;
@@ -665,3 +667,4 @@ background-color: #303030;
 }
 
 /* Footer end */
+
