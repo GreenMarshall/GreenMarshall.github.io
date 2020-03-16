@@ -8,12 +8,14 @@ $(function(){
 
             if ($(this).scrollTop()-130 > 617){
             $('header').addClass("sticky");
+            $('.slider').addClass("margin");
             $('.visible__stat').css('display','none');
             $('.visible__scroll').css('display','inline-block');
             }
 
             else{
             $('header').removeClass("sticky");
+            $('.slider').removeClass("margin");
             $('.visible__scroll').css('display','none');
             $('.visible__stat').css('display','inline-block');
             }
@@ -54,8 +56,7 @@ $(function(){
 
         Circlle('.round')
 
-        
 
     });
  
-})(jQuery);
+});

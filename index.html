@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,14 +10,17 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/assets/css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/fonts.css">
     <link rel="stylesheet" href="/assets/css/slick.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="/assets/css/jquery.fancybox.min.css">
     <!-- My css -->
     <link rel="stylesheet" href="/assets/css/style.css">
     <!-- Css end -->
 </head>
+
 <body>
-    
+
     <!-- Preloder start -->
 
     <!-- Preloder end -->
@@ -25,13 +29,13 @@
 
     <section class="contacts" id="home">
         <div class="container">
-            <div class="speed__contacts">             
-                <a class="phone" href="tel:380664655902"> +38 066 465 59 02</a>
-                <a class="gmail" href="#"> DevGreenMarshall@gmail.com</a>
+            <div class="speed__contacts">
+                <a class="phone" href="tel:380664655902">+38 066 465 59 02</a>
+                <a class="gmail" href="DevGreenMarshall@gmail.com">DevGreenMarshall@gmail.com</a>
                 <a class="instagram" href="https://www.instagram.com/devgreenmarshall/" target="blank"> Instagram</a>
                 <a class="telegram" href="http://t.me/DevGreenMarshall_com" target="blank"> Telegram</a>
-                <a class="en" href="index.html">En</a> 
-                <a class="ru" href="#">Ru</a>                
+                <a class="en" href="index.html">En</a>
+                <a class="ru" href="#">Ru</a>
             </div>
         </div>
     </section>
@@ -44,7 +48,7 @@
         <div class="container">
             <div class="header-inner">
                 <div class="header__logo" role="banner">
-                    <a  href="index.html">
+                    <a href="index.html">
                         <img class="logo__icon visible__stat" src="/assets/media/img/logo.png" alt="">
                     </a>
                     <a class="logo__text visible__scroll" href="index.html">
@@ -61,6 +65,9 @@
                         </li>
                         <li>
                             <a href="#skills">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio">Portfolio</a>
                         </li>
                         <li>
                             <a href="#consultation">Consultation</a>
@@ -81,7 +88,7 @@
                 <div class="slider__item">
                     <div class="slider__item-content">
                         <div class="slider__title">
-                            Green Marshall
+                            <h1>Green Marshall</h1>
                         </div>
                         <div class="slider__text">
                             Front-end web development
@@ -94,7 +101,7 @@
                 <div class="slider__item">
                     <div class="slider__item-content">
                         <div class="slider__title">
-                            Green Marshall
+                            <h1>Green Marshall</h1>
                         </div>
                         <div class="slider__text">
                             I can also provide small web designer services.
@@ -104,7 +111,7 @@
                 <div class="slider__item">
                     <div class="slider__item-content">
                         <div class="slider__title">
-                            Green Marshall
+                            <h1>Green Marshall</h1>
                         </div>
                         <div class="slider__text">
                             I am currently participating in a social program for the development of IT.
@@ -119,7 +126,7 @@
                     <i class="fa fa-angle-down fa-2x"></i>
                 </span>
             </div>
-            </a>
+        </a>
     </section>
 
     <!-- Title end -->
@@ -134,12 +141,13 @@
                         My services
                     </div>
                     <div class="text__box-inner">
-                        I provide the services of a web programmer and web designer. Below you can find a part of my services.
+                        I provide the services of a web programmer and web designer. Below you can find a part of my
+                        services.
                     </div>
                 </div>
                 <div class="custom-btn">
-                    <a href="#">Process</a>
-                </div>   
+                    <a data-fancybox data-src="#services__modal" href="javascript:;" href="#">Process</a>
+                </div>
             </div>
             <div class="row features__items">
                 <div class="col-sm-4 features__item">
@@ -151,19 +159,19 @@
                     </div>
                     <div class="features__item-text">
                         Development of corporate identity and logos. <br> <br>
-                        Graphic Design and Interface Design. <br> <br>  
-                        Mobile App Design. 
+                        Graphic Design and Interface Design. <br> <br>
+                        Mobile App Design.
                     </div>
                 </div>
                 <div class="col-sm-4 features__item">
                     <div class="fleatures__icon services-two">
-                        
+
                     </div>
                     <div class="features__item-title">
                         WEB PROGRAMMING
                     </div>
                     <div class="features__item-text">
-                        HTML / CSS layout <br> <br> 
+                        HTML / CSS layout <br> <br>
                         JavaScript (using jQuery framework) <br> <br>
                         SEO (Search Engine Optimization)
                     </div>
@@ -190,7 +198,7 @@
 
     <section id="skills" class="content-box content-box-gray">
         <div class="container">
-            <div class="content-box-top">
+            <div class="row content-box-top">
                 <div class="title-box">
                     <div class="title__box-inner">
                         My skills
@@ -199,14 +207,14 @@
                         I always tell myself: "I will do my best." .
                     </div>
                 </div>
-                <div class="custom-btn ">
-                    <a href="#">All skills</a>
-                </div>  
+                <div class="custom-btn">
+                    <a data-fancybox data-src="#skills__modal" href="javascript:;" href="#">All skills</a>
+                </div>
             </div>
             <div class="skills-inner" id="circle-bar">
                 <div class="row">
                     <div class="col-sm-4 col-md-4">
-                        <div class="round" data-value="0.64" data-size="200" data-sickness="12">
+                        <div class="round" data-value="0.64" data-size="300" data-sickness="12">
                             <strong>
                                 64%
                             </strong>
@@ -218,7 +226,7 @@
                         </div>
                     </div>
                     <div class="col-sm-4 col-md-4">
-                        <div class="round" data-value="0.47" data-size="200" data-sickness="12">
+                        <div class="round" data-value="0.47" data-size="300" data-sickness="12">
                             <strong>
                                 47%
                             </strong>
@@ -230,7 +238,7 @@
                         </div>
                     </div>
                     <div class="col-sm-4 col-md-4">
-                        <div class="round" data-value="0.34" data-size="200" data-sickness="12">
+                        <div class="round" data-value="0.34" data-size="300" data-sickness="12">
                             <strong>
                                 34%
                             </strong>
@@ -248,53 +256,165 @@
 
     <!-- Skills end -->
 
+    <!-- Portfolio start -->
+
+    <section id="portfolio" class="content-box">
+        <div class="container">
+            <div class="row content-box-top">
+                <div class="title-box">
+                    <div class="title__box-inner">
+                        Portfolio
+                    </div>
+                    <div class="text__box-inner">
+                        «Success consists of going from failure to failure without loss of enthusiasm». (Winston Churchill)
+                    </div>
+                </div>
+                <div class="custom-btn ">
+                    <a data-fancybox data-src="#portfolio__modal" href="javascript:;" href="#">More details</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="grid">
+                        <figure class="effect-bubba">
+                            <img src="assets/media/img/EasyScript.JPG" alt="EasyScript" />
+                            <figcaption>
+                                <h2>Easy <span>Script</span></h2>
+                                <p>Create all button, header and footer.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="grid">
+                        <figure class="effect-bubba">
+                            <img src="assets/media/img/fotograf.jpg" alt="fotografportfolio" />
+                            <figcaption>
+                                <h2>Portfolio <span>Photographer</span></h2>
+                                <p>Coming soon.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="grid">
+                        <figure class="effect-bubba">
+                            <img src="assets/media/img/sreck.jpg" alt="img01" />
+                            <figcaption>
+                                <h2>Coming<span>soon</span></h2>
+                                <p>Somebody once told me the world is gonna roll me</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="grid">
+                        <figure class="effect-bubba">
+                            <img src="assets/media/img/guitar.jpg" alt="img01" />
+                            <figcaption>
+                                <h2>Coming<span>soon</span></h2>
+                                <p>I ain't the sharpest tool in the shed</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="grid">
+                        <figure class="effect-bubba">
+                            <img src="assets/media/img/blog.jpg" alt="img01" />
+                            <figcaption>
+                                <h2>Coming<span>soon</span></h2>
+                                <p>She was looking kind of dumb with her finger and her thumb</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="grid">
+                        <figure class="effect-bubba">
+                            <img src="assets/media/img/cyberpunk.jpg" alt="img01" />
+                            <figcaption>
+                                <h2>Coming<span>soon</span></h2>
+                                <p>In the shape of an "L" on her forehead</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio end -->
+
     <!-- Consultation start -->
 
-    <footer id="Consultation" class="content-box">
+    <footer id="consultation" class="content-box">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-sm-offset-3 footer-box">
                     <div class="footer__text">
                         <h2 class="footer-title">Drop me a line</h2>
-						<div class="footer-line"></div>
-						<div class="footer-subtitle">
-							No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s eyes, to reveal the marvels around.
-						</div>
+                        <div class="footer-line"></div>
+                        <div class="footer-subtitle">
+                            I can become the one who will bring your ideas to life.
+                        </div>
                     </div>
                 </div>
             </div>
-            <form role="form">
-                <div class="form-group">
-                    <label class="sr-only" for="form_name">Name</label>
-                    <input type="text" id="form_name" class="form-control" name="f_name" placeholder="Name">
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3 footer-box">
+                    <form role="form">
+                        <div class="form-group">
+                            <label class="sr-only" for="form_name">Name</label>
+                            <input type="text" id="form_name" class="form-control" name="form_name" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="form_email">Email</label>
+                            <input type="email" id="form_email" class="form-control" name="form_email" placeholder="E-mail">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="form_message" name="form_message" rows="7"
+                                placeholder="Message"></textarea>
+                        </div>
+                        <button id="sendMail" class="btn btn-success" type="button">Send Message</button>
+                    </form>
                 </div>
-                <div class="form-group">
-                    <label class="sr-only" for="form_email">Email</label>
-                    <input type="email" id="form_email" class="form-control" name="f_email" placeholder="E-mail">
-                </div>
-                <div class="form-group">
-                    <textarea class="form-control" id="form_message" name="f_message" rows="7" placeholder="Message"></textarea>
-                </div>
-                <button id="sendMail" class="btn btn-success" type="button">Send Message</button>
-            </form>
-            <div id="errorMessage">
-
             </div>
         </div>
     </footer>
 
     <!-- Consultation end -->
 
-    
+    <!-- Fancybox start -->
+
+    <div style="display: none;" id="services__modal">
+        <h2>Hello!</h2>
+        <p>You are awesome!</p>
+      </div>
+
+      <div style="display: none;" id="skills__modal">
+        <h2>Hello!</h2>
+        <p>You are awesome!</p>
+      </div>
+
+      <div style="display: none;" id="portfolio__modal">
+        <h2>Hello!</h2>
+        <p>You are awesome!</p>
+      </div>
+
+    <!-- Fancybox end -->
+
+
 
     <!-- Script start -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
     <script src="/assets/js/slick.min.js"></script>
+    <script src="/assets/js/jquery.fancybox.min.js"></script>
     <!-- My script -->
-    <script src="/assets/js/formMail.js"></script>
     <script src="/assets/js/main.js"></script>
     <!-- Script end -->
 </body>
+
 </html>
